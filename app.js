@@ -9,8 +9,7 @@ const SEED_ANIME = [
     id: "atele-koldovskih-kolpakov",
     title: "Ателье колдовских колпаков",
     original: "Tongari Boushi no Atelier",
-    image: "https://animego.online/uploads/mini/240x360/dc/blagouhajuschij-cvetok-rascvetaet-s-dostoinstvom-poster.webp",
-    imageFallback: "https://static.wikia.nocookie.net/atele-koldovskih-kolpakov/images/placeholder.png",
+    image: "https://animego.online/uploads/mini/240x360/20/atele-koldovskih-kolpakov-poster.webp",
     year: 2026,
     type: "Сериал",
     episodes: 12,
@@ -24,11 +23,15 @@ const SEED_ANIME = [
     id: "mech-i-zhezl-vistorii-2",
     title: "Меч и жезл Вистории 2 сезон",
     original: "Tsue to Tsurugi no Wistoria Season 2",
-    image: "",
+    image: "https://animego.online/uploads/mini/240x360/aa/mech-i-zhezl-vistorii-2-poster.webp",
     year: 2026,
     type: "Сериал",
     episodes: 12,
     seasons: 2,
+    seasonsDetail: [
+      { title: "1 сезон", year: 2024, episodes: 12 },
+      { title: "2 сезон", year: 2026, episodes: 12 },
+    ],
     studio: "Actas, Bandai Namco Pictures",
     genres: ["Приключения", "Экшен", "Фэнтези", "Школа"],
     description:
@@ -38,11 +41,15 @@ const SEED_ANIME = [
     id: "pesn-nochnyh-sov",
     title: "Песнь ночных сов",
     original: "Yofukashi no Uta",
-    image: "",
+    image: "https://animego.online/uploads/mini/240x360/4d/yofukashi-no-uta-poster.webp",
     year: 2022,
     type: "Сериал",
     episodes: 13,
     seasons: 2,
+    seasonsDetail: [
+      { title: "1 сезон", year: 2022, episodes: 13 },
+      { title: "2 сезон", year: 2023, episodes: 13 },
+    ],
     studio: "LIDENFILMS",
     genres: ["Романтика", "Сверхъестественное", "Драма", "Комедия"],
     description:
@@ -99,6 +106,10 @@ const SEED_ANIME = [
     type: "Сериал",
     episodes: 12,
     seasons: 2,
+    seasonsDetail: [
+      { title: "1 сезон", year: 2023, episodes: 12 },
+      { title: "2 сезон", year: 2026, episodes: 12 },
+    ],
     studio: "Project No.9",
     genres: ["Сёнэн", "Романтика", "Повседневность", "Школьная жизнь"],
     description:
@@ -108,11 +119,15 @@ const SEED_ANIME = [
     id: "gaikotsu-kishi",
     title: "Рыцарь-скелет вступает в параллельный мир",
     original: "Gaikotsu Kishi-sama, Tadaima Isekai e Odekakechuu",
-    image: "",
+    image: "https://animego.online/uploads/mini/240x360/32/1649106228_poster.webp",
     year: 2022,
     type: "Сериал",
     episodes: 12,
     seasons: 2,
+    seasonsDetail: [
+      { title: "1 сезон", year: 2022, episodes: 12 },
+      { title: "2 сезон", year: 2024, episodes: 12 },
+    ],
     studio: "Studio Kai / Aura Studio",
     genres: ["Приключения", "Фэнтези", "Экшен", "Исэкай"],
     description:
@@ -122,7 +137,7 @@ const SEED_ANIME = [
     id: "re-monster",
     title: "Перерождение: Монстр",
     original: "Re:Monster",
-    image: "",
+    image: "https://animego.online/uploads/mini/240x360/1a/remonster-poster.webp",
     year: 2024,
     type: "Сериал",
     episodes: 12,
@@ -136,11 +151,16 @@ const SEED_ANIME = [
     id: "mushoku-tensei",
     title: "Реинкарнация безработного",
     original: "Mushoku Tensei: Isekai Ittara Honki Dasu",
-    image: "",
+    image: "https://animego.online/uploads/mini/240x360/da/reinkarnacija-bezrabotnogo_poster.webp",
     year: 2021,
     type: "Сериал",
     episodes: 48,
     seasons: 3,
+    seasonsDetail: [
+      { title: "1 сезон", year: 2021, episodes: 23 },
+      { title: "2 сезон", year: 2023, episodes: 12 },
+      { title: "3 сезон", year: 2024, episodes: 13 },
+    ],
     studio: "Studio Bind",
     genres: ["Фэнтези", "Драма", "Приключения", "Исэкай", "Романтика"],
     description:
@@ -150,7 +170,7 @@ const SEED_ANIME = [
     id: "subete-wo-parry",
     title: "Я парировал всё время, чтобы стать сильнейшим авантюристом",
     original: "Ore wa Subete wo \"Parry\" suru",
-    image: "",
+    image: "https://animego.online/uploads/mini/240x360/83/ore-wa-subete-wo-parry-suru-gyaku-kanchigai-no-sekai-saikyou-wa-boukensha-ni-naritai-poster.webp",
     year: 2024,
     type: "Сериал",
     episodes: 12,
@@ -164,7 +184,7 @@ const SEED_ANIME = [
     id: "shinmai-ossan-boukensha",
     title: "Невероятный новичок средних лет",
     original: "Shinmai Ossan Boukensha, Saikyou Party ni Shinu hodo Kitaerarete Muteki ni Naru",
-    image: "",
+    image: "https://animego.online/uploads/mini/240x360/c4/shinmai-ossan-boukensha-saikyou-party-ni-shinu-hodo-kitaerarete-muteki-ni-naru-poster.webp",
     year: 2024,
     type: "Сериал",
     episodes: 12,
@@ -178,7 +198,7 @@ const SEED_ANIME = [
     id: "vermeil-in-gold",
     title: "Вермейл в золотом",
     original: "Kinsou no Vermeil",
-    image: "",
+    image: "https://animego.online/uploads/mini/240x360/f2/kinsou-no-vermeil-gakeppuchi-majutsushi-wa-saikyou-no-yakusai-to-mahou-sekai-wo-tsukisusumu-poster.webp",
     year: 2022,
     type: "Сериал",
     episodes: 12,
@@ -192,7 +212,7 @@ const SEED_ANIME = [
     id: "deadman-wonderland",
     title: "Страна чудес смертников",
     original: "Deadman Wonderland",
-    image: "",
+    image: "https://animego.online/uploads/mini/240x360/6a/1616916249_poster.webp",
     year: 2011,
     type: "Сериал",
     episodes: 12,
@@ -206,7 +226,7 @@ const SEED_ANIME = [
     id: "iseleve",
     title: "Я получил читерские способности в другом мире",
     original: "Isekai de Cheat Skill wo Te ni Shita Ore wa (Iseleve)",
-    image: "",
+    image: "https://animego.online/uploads/mini/240x360/e4/chiterskij-navyk-iz-drugogo-mira_poster.webp",
     year: 2023,
     type: "Спешл",
     episodes: 1,
@@ -239,6 +259,10 @@ const SEED_ANIME = [
     type: "Сериал",
     episodes: 12,
     seasons: 2,
+    seasonsDetail: [
+      { title: "1 сезон", year: 2024, episodes: 12 },
+      { title: "2 сезон", year: 2025, episodes: 12 },
+    ],
     studio: "Science SARU",
     genres: ["Приключения", "Комедия", "Фэнтези", "Экшен", "Фантастика", "Школа", "Сверхъестественное", "Выживание"],
     description:
@@ -267,6 +291,10 @@ const SEED_ANIME = [
     type: "Сериал",
     episodes: 11,
     seasons: 2,
+    seasonsDetail: [
+      { title: "1 сезон", year: 2024, episodes: 12 },
+      { title: "2 сезон", year: 2025, episodes: 11 },
+    ],
     studio: "Production I.G",
     genres: ["Приключения", "Фэнтези", "Экшен", "Фантастика", "Военное", "Ужасы"],
     description:
@@ -281,6 +309,13 @@ const SEED_ANIME = [
     type: "Франшиза",
     episodes: 13,
     seasons: 5,
+    seasonsDetail: [
+      { title: "1 сезон", year: 2015, episodes: 13 },
+      { title: "2 сезон", year: 2019, episodes: 12 },
+      { title: "3 сезон", year: 2020, episodes: 12 },
+      { title: "4 сезон (часть 1)", year: 2022, episodes: 12 },
+      { title: "4 сезон (часть 2)", year: 2022, episodes: 12 },
+    ],
     studio: "J.C.Staff",
     genres: ["Приключения", "Комедия", "Фэнтези", "Экшен", "Романтика", "Магия", "Гарем"],
     description:
@@ -337,6 +372,10 @@ const SEED_ANIME = [
     type: "ONA",
     episodes: 12,
     seasons: 2,
+    seasonsDetail: [
+      { title: "1 сезон", year: 2021, episodes: 12 },
+      { title: "2 сезон", year: 2023, episodes: 12 },
+    ],
     studio: "Big Firebird Culture",
     genres: ["Приключения", "Комедия", "Фэнтези", "Экшен"],
     description:
@@ -398,6 +437,25 @@ const SEED_ANIME = [
     description:
       "Похищенный из лаборатории детёныш шимпанзе с человеческими генами вырастает в Чарли — существо на грани двух видов. Приёмные родители пытаются скрыть его происхождение, но школа не прощает чужаков.",
   },
+  {
+    id: "solo-leveling",
+    title: "Поднятие уровня в одиночку",
+    original: "Ore dake Level Up na Ken",
+    image: "https://animego.online/uploads/mini/240x360/e7/podnjatie-urovnja-v-odinochku_poster.webp",
+    year: 2024,
+    type: "Сериал",
+    episodes: 13,
+    seasons: 2,
+    seasonsDetail: [
+      { title: "1 сезон", year: 2024, episodes: 13 },
+      { title: "2 сезон: Arise from the Shadow", year: 2025, episodes: 13 },
+    ],
+    studio: "A-1 Pictures",
+    director: "Сюнсукэ Накасигэ",
+    genres: ["Приключения", "Фэнтези", "Экшен", "Магия", "Выживание"],
+    description:
+      "Сон Джин Ву — самый слабый охотник E-ранга, который после почти смертельного случая в подземелье получает доступ к таинственной «Системе» и начинает единственный в своём роде путь прокачки, невозможный для других охотников.",
+  },
 ];
 
 const STATUS = {
@@ -407,6 +465,47 @@ const STATUS = {
 };
 
 const STORAGE_KEY = "entries-v1";
+const EMPTY_ENTRY = { status: "planned", rating: 0, note: "", date: "" };
+
+/* ---------------------------------------------------------------
+   Season helpers
+   Titles with seasonsDetail get one independent entry PER SEASON,
+   stored under the key `${anime.id}::${seasonIndex}` (seasonIndex
+   is 0-based). Titles without seasonsDetail keep a single entry
+   under their plain `anime.id`, exactly as before.
+   ---------------------------------------------------------------- */
+function hasSeasons(anime) {
+  return Array.isArray(anime.seasonsDetail) && anime.seasonsDetail.length > 1;
+}
+
+function seasonKey(animeId, seasonIndex) {
+  return `${animeId}::${seasonIndex}`;
+}
+
+// Picks which season's entry to surface on the card / as the "current" one:
+// the first season currently being watched, else the first not-yet-completed
+// season (typically "planned"), else the last season (everything completed).
+function activeSeasonIndex(anime, entries) {
+  const seasons = anime.seasonsDetail;
+  for (let i = 0; i < seasons.length; i++) {
+    if (entries[seasonKey(anime.id, i)]?.status === "watching") return i;
+  }
+  for (let i = 0; i < seasons.length; i++) {
+    if (entries[seasonKey(anime.id, i)]?.status !== "completed") return i;
+  }
+  return seasons.length - 1;
+}
+
+// Aggregates per-season statuses into a single status for tab filtering/counts:
+// watching if any season is watching, else completed only if ALL seasons are
+// completed, else planned.
+function aggregateStatus(anime, entries) {
+  const seasons = anime.seasonsDetail;
+  const statuses = seasons.map((_, i) => entries[seasonKey(anime.id, i)]?.status || "planned");
+  if (statuses.some((s) => s === "watching")) return "watching";
+  if (statuses.every((s) => s === "completed")) return "completed";
+  return "planned";
+}
 
 /* ---------------------------------------------------------------
    Small helpers
@@ -556,6 +655,8 @@ function Poster({ anime }) {
    Card
    ---------------------------------------------------------------- */
 function Card({ anime, entry, onOpen, onStatusChange, onRatingChange }) {
+  const multiSeason = hasSeasons(anime);
+  entry = entry || EMPTY_ENTRY;
   return (
     <div className="card" onClick={() => onOpen(anime.id)}>
       <Poster anime={anime} />
@@ -569,10 +670,17 @@ function Card({ anime, entry, onOpen, onStatusChange, onRatingChange }) {
           <span>{anime.type}</span>
           <span className="dot-sep" />
           <span>{anime.episodes} эп.</span>
+          {multiSeason && (
+            <>
+              <span className="dot-sep" />
+              <Layers size={11} strokeWidth={2} />
+              <span>{anime.seasons} сез.</span>
+            </>
+          )}
         </div>
         <div className="card-footer" onClick={(e) => e.stopPropagation()}>
-          <StatusPicker status={entry.status} onChange={(s) => onStatusChange(anime.id, s)} />
-          <StarRating value={entry.rating} onChange={(r) => onRatingChange(anime.id, r)} size={15} />
+          <StatusPicker status={entry.status} onChange={onStatusChange} />
+          <StarRating value={entry.rating} onChange={onRatingChange} size={15} />
         </div>
       </div>
     </div>
@@ -580,14 +688,56 @@ function Card({ anime, entry, onOpen, onStatusChange, onRatingChange }) {
 }
 
 /* ---------------------------------------------------------------
+   Season tabs — lets a multi-season title switch which season's
+   status/rating/date/note is being edited inside the modal.
+   ---------------------------------------------------------------- */
+function SeasonTabs({ seasonsDetail, activeIndex, onSelect, entries, animeId }) {
+  return (
+    <div className="season-tabs">
+      {seasonsDetail.map((s, i) => {
+        const st = entries[seasonKey(animeId, i)]?.status || "planned";
+        const color = STATUS[st].color;
+        return (
+          <button
+            key={i}
+            type="button"
+            className={`season-tab ${i === activeIndex ? "active" : ""}`}
+            style={{ "--season-accent": color }}
+            onClick={() => onSelect(i)}
+          >
+            <span className="season-tab-dot" />
+            {s.title || `${i + 1} сезон`}
+          </button>
+        );
+      })}
+    </div>
+  );
+}
+
+/* ---------------------------------------------------------------
    Detail modal
    ---------------------------------------------------------------- */
-function DetailModal({ anime, entry, onClose, onStatusChange, onRatingChange, onNoteChange, onDateChange }) {
+function DetailModal({ anime, entries, onClose, onStatusChange, onRatingChange, onNoteChange, onDateChange }) {
+  const multiSeason = hasSeasons(anime);
+  const [activeIndex, setActiveIndex] = useState(() =>
+    multiSeason ? activeSeasonIndex(anime, entries) : 0
+  );
+  const activeKey = multiSeason ? seasonKey(anime.id, activeIndex) : anime.id;
+  const entry = entries[activeKey] || EMPTY_ENTRY;
+  const activeSeason = multiSeason ? anime.seasonsDetail[activeIndex] : null;
+
   const [noteDraft, setNoteDraft] = useState(entry.note || "");
   const debouncedNote = useDebounced(noteDraft, 400);
 
+  // Reset the note draft when switching seasons (or on mount) so it
+  // reflects the newly-selected season's saved note, not the last one.
   useEffect(() => {
-    onNoteChange(anime.id, debouncedNote);
+    setNoteDraft(entries[activeKey]?.note || "");
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [activeKey]);
+
+  useEffect(() => {
+    onNoteChange(activeKey, debouncedNote);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [debouncedNote]);
 
@@ -646,7 +796,9 @@ function DetailModal({ anime, entry, onClose, onStatusChange, onRatingChange, on
                 <div>
                   <span className="stat-label">Серии / сезоны</span>
                   <span className="stat-value">
-                    {anime.episodes} эп. · {anime.seasons} {anime.seasons === 1 ? "сезон" : "сезона(ов)"}
+                    {multiSeason
+                      ? `${activeSeason.episodes} эп. · ${anime.seasons} сезона(ов)`
+                      : `${anime.episodes} эп. · ${anime.seasons} ${anime.seasons === 1 ? "сезон" : "сезона(ов)"}`}
                   </span>
                 </div>
               </div>
@@ -658,14 +810,30 @@ function DetailModal({ anime, entry, onClose, onStatusChange, onRatingChange, on
 
         <div className="modal-divider" />
 
+        {multiSeason && (
+          <>
+            <SeasonTabs
+              seasonsDetail={anime.seasonsDetail}
+              activeIndex={activeIndex}
+              onSelect={setActiveIndex}
+              entries={entries}
+              animeId={anime.id}
+            />
+            <p className="season-tabs-hint">
+              {activeSeason.title || `${activeIndex + 1} сезон`} · {activeSeason.year} год ·{" "}
+              {activeSeason.episodes} эп. — у каждого сезона свой статус, дата и оценка.
+            </p>
+          </>
+        )}
+
         <div className="modal-controls">
           <div className="modal-control-row">
             <span className="modal-control-label">Статус</span>
-            <StatusPicker status={entry.status} onChange={(s) => onStatusChange(anime.id, s)} />
+            <StatusPicker status={entry.status} onChange={(s) => onStatusChange(activeKey, s)} />
           </div>
           <div className="modal-control-row">
             <span className="modal-control-label">Оценка</span>
-            <StarRating value={entry.rating} onChange={(r) => onRatingChange(anime.id, r)} size={20} />
+            <StarRating value={entry.rating} onChange={(r) => onRatingChange(activeKey, r)} size={20} />
           </div>
           <div className="modal-control-row">
             <span className="modal-control-label">Дата просмотра</span>
@@ -673,7 +841,7 @@ function DetailModal({ anime, entry, onClose, onStatusChange, onRatingChange, on
               type="date"
               className="date-input"
               value={entry.date || ""}
-              onChange={(e) => onDateChange(anime.id, e.target.value)}
+              onChange={(e) => onDateChange(activeKey, e.target.value)}
             />
           </div>
         </div>
@@ -719,12 +887,25 @@ function App() {
         }
       } catch (e) {}
       if (!data) data = loadEntries();
+      data = data || {};
 
       const base = {};
       SEED_ANIME.forEach((a) => {
-        base[a.id] = { status: "planned", rating: 0, note: "", date: "" };
+        if (hasSeasons(a)) {
+          // Migrate a pre-existing single entry (from before season
+          // splitting existed) into season 1, so nobody's saved
+          // progress on multi-season titles silently disappears.
+          const legacy = data[a.id];
+          a.seasonsDetail.forEach((_, i) => {
+            const key = seasonKey(a.id, i);
+            if (data[key]) return; // already has per-season data
+            base[key] = i === 0 && legacy ? { ...EMPTY_ENTRY, ...legacy } : { ...EMPTY_ENTRY };
+          });
+        } else {
+          base[a.id] = { ...EMPTY_ENTRY };
+        }
       });
-      const merged = { ...base, ...(data || {}) };
+      const merged = { ...base, ...data };
       if (!cancelled) {
         setEntries(merged);
         setLoaded(true);
@@ -754,17 +935,24 @@ function App() {
     setEntries((prev) => ({ ...prev, [id]: { ...prev[id], ...patch } }));
   }
 
+  // Per-title status used for tab counts/filtering: aggregated across
+  // seasons for multi-season titles, plain entry status otherwise.
+  function titleStatus(a) {
+    return hasSeasons(a) ? aggregateStatus(a, entries) : entries[a.id]?.status;
+  }
+
   const counts = useMemo(() => {
     const c = { watching: 0, planned: 0, completed: 0 };
-    Object.values(entries).forEach((e) => {
-      if (c[e.status] !== undefined) c[e.status] += 1;
+    SEED_ANIME.forEach((a) => {
+      const s = titleStatus(a);
+      if (c[s] !== undefined) c[s] += 1;
     });
     return c;
   }, [entries]);
 
   const filtered = useMemo(() => {
     let list = SEED_ANIME;
-    if (activeTab !== "all") list = list.filter((a) => entries[a.id]?.status === activeTab);
+    if (activeTab !== "all") list = list.filter((a) => titleStatus(a) === activeTab);
     if (debouncedQuery.trim()) {
       const q = debouncedQuery.trim().toLowerCase();
       list = list.filter(
@@ -843,16 +1031,19 @@ function App() {
           </div>
         ) : (
           <div className="grid">
-            {filtered.map((a) => (
-              <Card
-                key={a.id}
-                anime={a}
-                entry={entries[a.id]}
-                onOpen={setOpenId}
-                onStatusChange={(id, s) => updateEntry(id, { status: s })}
-                onRatingChange={(id, r) => updateEntry(id, { rating: r })}
-              />
-            ))}
+            {filtered.map((a) => {
+              const cardKey = hasSeasons(a) ? seasonKey(a.id, activeSeasonIndex(a, entries)) : a.id;
+              return (
+                <Card
+                  key={a.id}
+                  anime={a}
+                  entry={entries[cardKey]}
+                  onOpen={setOpenId}
+                  onStatusChange={(s) => updateEntry(cardKey, { status: s })}
+                  onRatingChange={(r) => updateEntry(cardKey, { rating: r })}
+                />
+              );
+            })}
           </div>
         )}
       </main>
@@ -860,12 +1051,12 @@ function App() {
       {openAnime && (
         <DetailModal
           anime={openAnime}
-          entry={entries[openAnime.id]}
+          entries={entries}
+          onStatusChange={(key, s) => updateEntry(key, { status: s })}
+          onRatingChange={(key, r) => updateEntry(key, { rating: r })}
+          onNoteChange={(key, note) => updateEntry(key, { note })}
+          onDateChange={(key, date) => updateEntry(key, { date })}
           onClose={() => setOpenId(null)}
-          onStatusChange={(id, s) => updateEntry(id, { status: s })}
-          onRatingChange={(id, r) => updateEntry(id, { rating: r })}
-          onNoteChange={(id, note) => updateEntry(id, { note })}
-          onDateChange={(id, date) => updateEntry(id, { date })}
         />
       )}
     </div>
@@ -1246,6 +1437,44 @@ const CSS = `
 }
 
 .modal-divider { height: 1px; background: var(--border-soft); margin: 22px 0; }
+
+/* ---------- Season tabs ---------- */
+.season-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+.season-tab {
+  --season-accent: var(--text-dim);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text-dim);
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 6px 11px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  white-space: nowrap;
+}
+.season-tab:hover { border-color: #3A3650; color: var(--text); }
+.season-tab.active {
+  background: color-mix(in srgb, var(--season-accent) 16%, transparent);
+  border-color: color-mix(in srgb, var(--season-accent) 45%, transparent);
+  color: var(--text);
+}
+.season-tab-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--season-accent); flex-shrink: 0; }
+.season-tabs-hint {
+  font-size: 11.5px;
+  color: var(--text-faint);
+  margin: 0 0 18px;
+  line-height: 1.5;
+}
 
 .modal-controls { display: flex; flex-direction: column; gap: 14px; }
 .modal-control-row { display: flex; align-items: center; justify-content: space-between; }
