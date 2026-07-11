@@ -12,7 +12,7 @@ const SEED_ANIME = [
     image: "https://animego.online/uploads/mini/240x360/20/atele-koldovskih-kolpakov-poster.webp",
     year: 2026,
     type: "Сериал",
-    episodes: 12,
+    episodes: 13,
     seasons: 1,
     studio: "Bug Films",
     genres: ["Фэнтези", "Приключения", "Драма"],
@@ -21,12 +21,12 @@ const SEED_ANIME = [
   },
   {
     id: "mech-i-zhezl-vistorii-2",
-    title: "Меч и жезл Вистории 2 сезон",
-    original: "Tsue to Tsurugi no Wistoria Season 2",
+    title: "Меч и жезл Вистории",
+    original: "Tsue to Tsurugi no Wistoria",
     image: "https://animego.online/uploads/mini/240x360/aa/mech-i-zhezl-vistorii-2-poster.webp",
     year: 2026,
     type: "Сериал",
-    episodes: 12,
+    episodes: 24,
     seasons: 2,
     seasonsDetail: [
       { title: "1 сезон", year: 2024, episodes: 12 },
@@ -44,11 +44,11 @@ const SEED_ANIME = [
     image: "https://animego.online/uploads/mini/240x360/4d/yofukashi-no-uta-poster.webp",
     year: 2022,
     type: "Сериал",
-    episodes: 13,
+    episodes: 25,
     seasons: 2,
     seasonsDetail: [
       { title: "1 сезон", year: 2022, episodes: 13 },
-      { title: "2 сезон", year: 2023, episodes: 13 },
+      { title: "2 сезон", year: 2025, episodes: 12 },
     ],
     studio: "LIDENFILMS",
     genres: ["Романтика", "Сверхъестественное", "Драма", "Комедия"],
@@ -99,12 +99,12 @@ const SEED_ANIME = [
   },
   {
     id: "angel-po-sosedstvu-2",
-    title: "Ангел по соседству 2",
-    original: "Otonari no Tenshi-sama 2nd Season",
+    title: "Ангел по соседству",
+    original: "Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken",
     image: "https://static.yani.tv/posters/full/1636936497.jpg",
     year: 2026,
     type: "Сериал",
-    episodes: 12,
+    episodes: 24,
     seasons: 2,
     seasonsDetail: [
       { title: "1 сезон", year: 2023, episodes: 12 },
@@ -122,11 +122,11 @@ const SEED_ANIME = [
     image: "https://animego.online/uploads/mini/240x360/32/1649106228_poster.webp",
     year: 2022,
     type: "Сериал",
-    episodes: 12,
+    episodes: 24,
     seasons: 2,
     seasonsDetail: [
       { title: "1 сезон", year: 2022, episodes: 12 },
-      { title: "2 сезон", year: 2024, episodes: 12 },
+      { title: "2 сезон", year: 2026, episodes: 12 },
     ],
     studio: "Studio Kai / Aura Studio",
     genres: ["Приключения", "Фэнтези", "Экшен", "Исэкай"],
@@ -154,12 +154,13 @@ const SEED_ANIME = [
     image: "https://animego.online/uploads/mini/240x360/da/reinkarnacija-bezrabotnogo_poster.webp",
     year: 2021,
     type: "Сериал",
-    episodes: 48,
-    seasons: 3,
+    episodes: 72,
+    seasons: 4,
     seasonsDetail: [
       { title: "1 сезон", year: 2021, episodes: 23 },
-      { title: "2 сезон", year: 2023, episodes: 12 },
-      { title: "3 сезон", year: 2024, episodes: 13 },
+      { title: "2 сезон (часть 1)", year: 2023, episodes: 13 },
+      { title: "2 сезон (часть 2)", year: 2024, episodes: 12 },
+      { title: "3 сезон", year: 2026, episodes: 24 },
     ],
     studio: "Studio Bind",
     genres: ["Фэнтези", "Драма", "Приключения", "Исэкай", "Романтика"],
@@ -257,7 +258,7 @@ const SEED_ANIME = [
     image: "https://animego.online/uploads/mini/240x360/a7/dandadan-poster.webp",
     year: 2024,
     type: "Сериал",
-    episodes: 12,
+    episodes: 24,
     seasons: 2,
     seasonsDetail: [
       { title: "1 сезон", year: 2024, episodes: 12 },
@@ -284,12 +285,12 @@ const SEED_ANIME = [
   },
   {
     id: "kaidzju-8-2",
-    title: "Кайдзю №8 2 сезон",
-    original: "Kaijuu 8-gou 2nd Season",
+    title: "Кайдзю №8",
+    original: "Kaijuu 8-gou",
     image: "https://animego.online/uploads/mini/240x360/2b/kajdzju-8-2-sezon-poster.webp",
     year: 2025,
     type: "Сериал",
-    episodes: 11,
+    episodes: 23,
     seasons: 2,
     seasonsDetail: [
       { title: "1 сезон", year: 2024, episodes: 12 },
@@ -307,19 +308,20 @@ const SEED_ANIME = [
     image: "https://animego.online/uploads/mini/240x360/94/1605283518_poster.webp",
     year: 2015,
     type: "Франшиза",
-    episodes: 13,
-    seasons: 5,
+    episodes: 74,
+    seasons: 6,
     seasonsDetail: [
       { title: "1 сезон", year: 2015, episodes: 13 },
       { title: "2 сезон", year: 2019, episodes: 12 },
       { title: "3 сезон", year: 2020, episodes: 12 },
-      { title: "4 сезон (часть 1)", year: 2022, episodes: 12 },
-      { title: "4 сезон (часть 2)", year: 2022, episodes: 12 },
+      { title: "4 сезон (часть 1)", year: 2022, episodes: 11 },
+      { title: "4 сезон (часть 2)", year: 2023, episodes: 11 },
+      { title: "5 сезон", year: 2024, episodes: 15 },
     ],
     studio: "J.C.Staff",
     genres: ["Приключения", "Комедия", "Фэнтези", "Экшен", "Романтика", "Магия", "Гарем"],
     description:
-      "Город-лабиринт Орарио притягивает авантюристов со всего света. Новичок Белл Кранел находит богиню-покровительницу и, спасённый от минотавра прекрасной мечницей, решает во что бы то ни стало догнать её по силе. Франшиза из 12 частей — сезоны, OVA и спин-оффы.",
+      "Город-лабиринт Орарио притягивает авантюристов со всего света. Новичок Белл Кранел находит богиню-покровительницу и, спасённый от минотавра прекрасной мечницей, решает во что бы то ни стало догнать её по силе.",
   },
   {
     id: "gargantia",
@@ -365,12 +367,12 @@ const SEED_ANIME = [
   },
   {
     id: "poschadi-menja-2",
-    title: "Пощади меня, великий господин! 2 сезон",
-    original: "Da Wang Rao Ming 2",
+    title: "Пощади меня, великий господин!",
+    original: "Da Wang Rao Ming",
     image: "https://animego.online/uploads/mini/240x360/7c/poschadi-menja-velikij-gospodin-2_poster.webp",
     year: 2023,
     type: "ONA",
-    episodes: 12,
+    episodes: 24,
     seasons: 2,
     seasonsDetail: [
       { title: "1 сезон", year: 2021, episodes: 12 },
@@ -444,11 +446,11 @@ const SEED_ANIME = [
     image: "https://animego.online/uploads/mini/240x360/e7/podnjatie-urovnja-v-odinochku_poster.webp",
     year: 2024,
     type: "Сериал",
-    episodes: 13,
+    episodes: 24,
     seasons: 2,
     seasonsDetail: [
-      { title: "1 сезон", year: 2024, episodes: 13 },
-      { title: "2 сезон: Arise from the Shadow", year: 2025, episodes: 13 },
+      { title: "1 сезон", year: 2024, episodes: 12 },
+      { title: "2 сезон: Arise from the Shadow", year: 2025, episodes: 12 },
     ],
     studio: "A-1 Pictures",
     director: "Сюнсукэ Накасигэ",
@@ -774,7 +776,7 @@ function DetailModal({ anime, entries, onClose, onStatusChange, onRatingChange, 
                 <Calendar size={14} strokeWidth={1.8} />
                 <div>
                   <span className="stat-label">Год</span>
-                  <span className="stat-value">{anime.year}</span>
+                  <span className="stat-value">{multiSeason ? activeSeason.year : anime.year}</span>
                 </div>
               </div>
               <div className="stat">
