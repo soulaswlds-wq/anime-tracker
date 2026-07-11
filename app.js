@@ -476,7 +476,7 @@ function SeasonPicker({ seasons, activeSeason, onChange, compact = false }) {
           className={`season-pill ${s.number === activeSeason ? "active" : ""}`}
           onClick={() => onChange(s.number)}
         >
-          {s.number} \u0441\u0435\u0437.
+          {s.number} {"\u0441\u0435\u0437."}
         </button>
       ))}
     </div>
@@ -722,30 +722,30 @@ function DetailModal({
               <div className="stat">
                 <Calendar size={14} strokeWidth={1.8} />
                 <div>
-                  <span className="stat-label">\u0413\u043e\u0434</span>
+                  <span className="stat-label">{"\u0413\u043e\u0434"}</span>
                   <span className="stat-value">{season.year}</span>
                 </div>
               </div>
               <div className="stat">
                 <Building2 size={14} strokeWidth={1.8} />
                 <div>
-                  <span className="stat-label">\u0421\u0442\u0443\u0434\u0438\u044f</span>
+                  <span className="stat-label">{"\u0421\u0442\u0443\u0434\u0438\u044f"}</span>
                   <span className="stat-value">{anime.studio}</span>
                 </div>
               </div>
               <div className="stat">
                 <Film size={14} strokeWidth={1.8} />
                 <div>
-                  <span className="stat-label">\u0422\u0438\u043f</span>
+                  <span className="stat-label">{"\u0422\u0438\u043f"}</span>
                   <span className="stat-value">{anime.type}</span>
                 </div>
               </div>
               <div className="stat">
                 <Layers size={14} strokeWidth={1.8} />
                 <div>
-                  <span className="stat-label">\u0421\u0435\u0440\u0438\u0438 / \u0441\u0435\u0437\u043e\u043d</span>
+                  <span className="stat-label">{"\u0421\u0435\u0440\u0438\u0438 / \u0441\u0435\u0437\u043e\u043d"}</span>
                   <span className="stat-value">
-                    {season.episodes ? `${season.episodes} \u044d\u043f.` : "\u041f\u043e\u043a\u0430 \u043d\u0435 \u0432\u044b\u0448\u0435\u043b"} \u00b7 \u0441\u0435\u0437\u043e\u043d {season.number} \u0438\u0437{" "}
+                    {season.episodes ? `${season.episodes} \u044d\u043f.` : "\u041f\u043e\u043a\u0430 \u043d\u0435 \u0432\u044b\u0448\u0435\u043b"} {"\u00b7 \u0441\u0435\u0437\u043e\u043d "}{season.number}{" \u0438\u0437"}{" "}
                     {anime.seasons.length}
                   </span>
                 </div>
@@ -760,15 +760,15 @@ function DetailModal({
 
         <div className="modal-controls">
           <div className="modal-control-row">
-            <span className="modal-control-label">\u0421\u0442\u0430\u0442\u0443\u0441</span>
+            <span className="modal-control-label">{"\u0421\u0442\u0430\u0442\u0443\u0441"}</span>
             <StatusPicker status={entry.status} onChange={(s) => onStatusChange(anime.id, activeSeason, s)} />
           </div>
           <div className="modal-control-row">
-            <span className="modal-control-label">\u041e\u0446\u0435\u043d\u043a\u0430</span>
+            <span className="modal-control-label">{"\u041e\u0446\u0435\u043d\u043a\u0430"}</span>
             <StarRating value={entry.rating} onChange={(r) => onRatingChange(anime.id, activeSeason, r)} size={20} />
           </div>
           <div className="modal-control-row">
-            <span className="modal-control-label">\u0414\u0430\u0442\u0430 \u043f\u0440\u043e\u0441\u043c\u043e\u0442\u0440\u0430</span>
+            <span className="modal-control-label">{"\u0414\u0430\u0442\u0430 \u043f\u0440\u043e\u0441\u043c\u043e\u0442\u0440\u0430"}</span>
             <input
               type="date"
               className="date-input"
@@ -781,7 +781,7 @@ function DetailModal({
         <div className="modal-note-block">
           <div className="modal-note-label">
             <StickyNote size={13} strokeWidth={2} />
-            \u0417\u0430\u043c\u0435\u0442\u043a\u0430 {anime.seasons.length > 1 ? `(\u0441\u0435\u0437\u043e\u043d ${activeSeason})` : ""}
+            {"\u0417\u0430\u043c\u0435\u0442\u043a\u0430 "}{anime.seasons.length > 1 ? `(\u0441\u0435\u0437\u043e\u043d ${activeSeason})` : ""}
           </div>
           <textarea
             className="note-textarea"
@@ -910,8 +910,8 @@ function App() {
       <header className="header">
         <div className="header-inner">
           <div className="header-title-block">
-            <p className="header-eyebrow">\u041b\u0438\u0447\u043d\u0430\u044f \u043a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f</p>
-            <h1 className="header-title">\u0427\u0442\u043e \u0441\u043c\u043e\u0442\u0440\u044e</h1>
+            <p className="header-eyebrow">{"\u041b\u0438\u0447\u043d\u0430\u044f \u043a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f"}</p>
+            <h1 className="header-title">{"\u0427\u0442\u043e \u0441\u043c\u043e\u0442\u0440\u044e"}</h1>
           </div>
           <div className="search-box">
             <Search size={15} strokeWidth={2} />
@@ -926,28 +926,28 @@ function App() {
 
         <nav className="tabs">
           <button className={`tab ${activeTab === "all" ? "active" : ""}`} onClick={() => setActiveTab("all")}>
-            \u0412\u0441\u0435 <span className="tab-count">{SEED_ANIME.length}</span>
+            {"\u0412\u0441\u0435 "}<span className="tab-count">{SEED_ANIME.length}</span>
           </button>
           <button
             className={`tab ${activeTab === "watching" ? "active" : ""}`}
             onClick={() => setActiveTab("watching")}
             style={{ "--tab-accent": STATUS.watching.color }}
           >
-            \u0421\u043c\u043e\u0442\u0440\u044e <span className="tab-count">{counts.watching}</span>
+            {"\u0421\u043c\u043e\u0442\u0440\u044e "}<span className="tab-count">{counts.watching}</span>
           </button>
           <button
             className={`tab ${activeTab === "completed" ? "active" : ""}`}
             onClick={() => setActiveTab("completed")}
             style={{ "--tab-accent": STATUS.completed.color }}
           >
-            \u041f\u0440\u043e\u0441\u043c\u043e\u0442\u0440\u0435\u043d\u043e <span className="tab-count">{counts.completed}</span>
+            {"\u041f\u0440\u043e\u0441\u043c\u043e\u0442\u0440\u0435\u043d\u043e "}<span className="tab-count">{counts.completed}</span>
           </button>
           <button
             className={`tab ${activeTab === "planned" ? "active" : ""}`}
             onClick={() => setActiveTab("planned")}
             style={{ "--tab-accent": STATUS.planned.color }}
           >
-            \u0411\u0443\u0434\u0443 \u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c <span className="tab-count">{counts.planned}</span>
+            {"\u0411\u0443\u0434\u0443 \u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c "}<span className="tab-count">{counts.planned}</span>
           </button>
         </nav>
       </header>
@@ -955,7 +955,7 @@ function App() {
       <main className="grid-wrap">
         {filtered.length === 0 ? (
           <div className="empty-state">
-            <p>\u041d\u0438\u0447\u0435\u0433\u043e \u043d\u0435 \u043d\u0430\u0448\u043b\u043e\u0441\u044c. \u041f\u043e\u043f\u0440\u043e\u0431\u0443\u0439 \u0434\u0440\u0443\u0433\u043e\u0439 \u0437\u0430\u043f\u0440\u043e\u0441 \u0438\u043b\u0438 \u0432\u043a\u043b\u0430\u0434\u043a\u0443.</p>
+            <p>{"\u041d\u0438\u0447\u0435\u0433\u043e \u043d\u0435 \u043d\u0430\u0448\u043b\u043e\u0441\u044c. \u041f\u043e\u043f\u0440\u043e\u0431\u0443\u0439 \u0434\u0440\u0443\u0433\u043e\u0439 \u0437\u0430\u043f\u0440\u043e\u0441 \u0438\u043b\u0438 \u0432\u043a\u043b\u0430\u0434\u043a\u0443."}</p>
           </div>
         ) : (
           <div className="grid">
